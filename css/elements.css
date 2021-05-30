@@ -1,0 +1,44 @@
+body {
+      background-color: #eaeaea;
+      font-size: 16px;
+      font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+      max-width: 1160px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      padding: 0 20px;
+      position: relative;
+      overflow: hidden;
+}
+
+
+.clearfix::after,
+.clearfix::before {
+      content: "";
+      display: block;
+}
+.clearfix::after {
+      clear: both;
+}
+
+.logo {
+      border: 1px solid #707070;
+      background: url(../icon/Logo.png) center center no-repeat;
+      background-size: cover;
+}
+
+.back-g {
+      background-color: #f8f8f8;
+      box-shadow: 0px 0px 3px 0px rgba(11, 12, 12, 0.15);
+}
+.button {
+      width: 105px;
+      padding: 10px 0;
+      font-size: 12px;
+      border: 1px solid #c2c2c2;
+      text-align: center;
+      cursor: pointer;
+}
+
