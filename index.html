@@ -9,17 +9,25 @@
 
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="fonts/font-awesome.min.css">
-   <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/elements.css">
    <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/main-dish.css">
+   <link rel="stylesheet" href="css/choise-dish.css">
+   <link rel="stylesheet" href="css/recipe.css">
+   <link rel="stylesheet" href="css/post.css">
+   <link rel="stylesheet" href="css/inform.css">
+   <link rel="stylesheet" href="css/datapicker.css">
+   <link rel="stylesheet" href="css/form.css">
+   <link rel="stylesheet" href="css/comments.css">
    <link rel="stylesheet" href="css/footer.css">
+   
    <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
    <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet">
-   <title>Document</title>
+   <title>Lemon</title>
 </head>
 
 <body>
@@ -92,6 +100,7 @@
                <button class="main-dish__button button">GET IS RECIPE</button>
             </div>
          </section>
+
          <section class="choise-dish back-g">
             <div class="choise-dish__wrap clearfix">
                <div class="choise-dish__cart">
@@ -135,6 +144,7 @@
                </div>
             </div>
          </section>
+
          <section class="recipe back-g">
             <div class="recipe__wrap clearfix">
                <div class="recipe__view">
@@ -178,11 +188,11 @@
                </div>
             </div>
          </section>
+
          <section class="post">
             <div class="post__wrap clearfix">
                <div class="post__cart">
                   <div class="post__content back-g post__contant-error ">
-
                      <h1 class="post__title">404</h1>
                      <div class="error__content">
                         <h1 class="error__title">Sorry</h1>
@@ -203,7 +213,6 @@
                               <h2 class="author__name">Karen Gray</h2>
                               <p class="autor__country">United States</p>
                               <div class="author__link">
-
                               </div>
                            </div>
                            <div class="post__review">
@@ -220,13 +229,11 @@
                            </div>
                         </div>
                      </div>
-
-
                   </div>
-
                </div>
             </div>
          </section>
+
          <section class="inform clearfix">
             <div class="inform__column">
                <div class="inform__content">
@@ -383,7 +390,12 @@
                         </div>
                      </div>
                   </div>
-                  <div class="infom__block back-g"></div>
+                  <div class="infom__block back-g">
+                     <div class="block__content clearfix">
+                        <h1 class="block__title">Calendar</h1>
+                        <div class="datepicker-here"></div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="inform__column">
@@ -426,14 +438,169 @@
                            </div>
                            <p class="timeline__desc">Eam adhuc iudico percipitur ex, ut malis audire voluptaria has.</p>
                         </div>
-
                      </div>
                   </div>
                </div>
             </div>
          </section>
+
+         <section class="form">
+            <div class="form__wrap clearfix">
+               <div class="form__block">
+                  <div class="form__content back-g">
+                     <h1 class="block__title">login</h1>
+                     <form class="block__form" action="#">
+                        <h2 class="form__lable">Login for LEMON</h2>
+                        <input class="input__form" type="text" id="login" placeholder="email or login">
+                        <input class="input__form" type="password" id="password" placeholder="password">
+                        <div class="form__other clearfix">
+                           <input class="form__check" type="checkbox" id="checkbox">
+                           <label class="check__lable" for="checkbox">Remember me</label>
+                           <a class="check__link" href="#">Forgot your password</a>
+                        </div>
+                        <button class="form__button button">LOGIN</button>
+                     </form>
+                     <div class="form__social">
+                        <ul class="social__list">
+                           <li class="social__item">
+                              <a href="" class="social__link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                           </li>
+                           <li class="social__item">
+                              <a href="" class="social__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="form__shell">
+                        <a class="form__link" href="#">Don't have an accont? Sign in</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="form__block">
+                  <div class="form__content back-g">
+                     <h1 class="block__title">Sign in</h1>
+                     <form class="block__form" action="#">
+                        <h2 class="form__lable">Sign in for LEMON</h2>
+                        <input class="input__form" type="text" placeholder="email">
+                        <input class="input__form" type="text" placeholder="user name">
+                        <input class="input__form" type="password" placeholder="password">
+                        <input class="input__form" type="password" placeholder="reapet password">
+                        <button class="form__button button">SIGN UP</button>
+                     </form>
+                     <div class="form__social">
+                        <ul class="social__list">
+                           <li class="social__item">
+                              <a href="" class="social__link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                           </li>
+                           <li class="social__item">
+                              <a href="" class="social__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                           </li>
+                        </ul>
+                     </div>
+                     <p class="form__problem">By joining LEMON, you agree to our</p>
+                     <a class="form__link form__link-problem" href="#">Terms or Service.</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="comments">
+            <div class="comments__wrap">
+               <div class="comments__section back-g ">
+                  <div class="comments__contain">
+                     <div class="comments__titlewrap clearfix">
+                        <h2 class="comments__title">Post a Comment</h2>
+                        <div class="comments__sait">Facebook / Twitter</div>
+                     </div>
+                     <div class="comments__inputwrap clearfix">
+                        <div class="comments__image">
+                           <img class="comments__pic" src="icon/author2.jpg" alt="">
+                        </div>
+                        <form class=" comments__form" action="#">
+                           <input class="input__form comments__input" type="text">
+                           <button class="comments__button button">POST</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="comments__section back-g">
+                  <div class="comments__contain">
+                     <h2 class="comments__title title-two">Comments</h2>
+                     <div class="comments__shell clearfix">
+                        <div class="comments__image">
+                           <img class="comments__pic" src="icon/author2.jpg" alt="">
+                        </div>
+                        <div class="comments__containwrap ">
+                           <h4 class="comments__by">Post by</h4>
+                           <div class="comments__to clearfix">
+                              <h3 class="to__left">Smuckersreg Toppings <span class="span__to">reply</span></h3>
+                              <p class="to__right">456 <i class="fa fa-share-alt" aria-hidden="true"></i>   15 <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>
+                           </div>
+                           <p class="comments__data">06/10/2014</p>
+                           <div class="comments__dish">
+                              <img class="comments__dish-pic" src="icon/fa6310.jpg" alt="">
+                           </div>
+                           <p class="comments__desc">Thanks for the recipe</p>
+                           <div class="comments__shell clearfix">
+                              <div class="comments__image">
+                                 <img class="comments__pic" src="icon/author2.jpg" alt="">
+                              </div>
+                              <div class="comments__containwrap ">
+                                 <h4 class="comments__by">Post by</h4>
+                                 <div class="comments__to clearfix">
+                                    <h3 class="to__left">Smuckersreg Toppings <span class="span__to">reply</span></h3>
+                                    <p class="to__right">456 <i class="fa fa-share-alt" aria-hidden="true"></i>   15 <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>
+                                 </div>
+                                 <p class="comments__data">06/10/2014</p>
+                                 <p class="comments__desc">Thanks for the recipe</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="comments__shell clearfix">
+                        <div class="comments__image">
+                           <img class="comments__pic" src="icon/author2.jpg" alt="">
+                        </div>
+                        <div class="comments__containwrap ">
+                           <h4 class="comments__by">Post by</h4>
+                           <div class="comments__to clearfix">
+                              <h3 class="to__left">Smuckersreg Toppings <span class="span__to">reply</span></h3>
+                              <p class="to__right">456 <i class="fa fa-share-alt" aria-hidden="true"></i>   15 <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>
+                           </div>
+                           <p class="comments__data">06/10/2014</p>
+                           <p class="comments__desc">Thanks for the recipe</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="comments__section back-g">
+                  <div class="comments__page">
+                     <ul class="page__list">
+                        <li class="page__item">
+                           <a href="" class="page__link">1</a>
+                        </li>
+                        <li class="page__item">
+                           <a href="" class="page__link page__link-active">2</a>
+                        </li>
+                        <li class="page__item">
+                           <a href="" class="page__link">3</a>
+                        </li>
+                        <li class="page__item">
+                           <a href="" class="page__link">4</a>
+                        </li>
+                        <li class="page__item">
+                           <a href="" class="page__link">5</a>
+                        </li>
+                        <li class="page__item">
+                           <a href="" class="page__link">6</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+         </section>
+
       </main>
    </div>
+
    <footer class="footer">
       <div class="container">
          <div class="footer__wrap-pic">
@@ -466,6 +633,9 @@
          </div>
       </div>
    </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/datapicker.js"></script>
+
 </body>
 
 </html>

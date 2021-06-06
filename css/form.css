@@ -1,0 +1,99 @@
+.form {
+   margin-bottom: 120px;
+}
+.form__wrap {
+   width: 744px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.form__block {
+   float: left;
+   width: 50%;
+}
+.form__content {
+   margin: 0 5.779%;
+   padding: 0 6.72% 6.72%;
+}
+.block__form {
+   margin: 30px 4px;
+}
+
+.form__lable {
+   font-weight: 300;
+   margin-bottom: 25px;
+}
+.input__form {
+   width: 100%;
+   padding: 10px 10px;
+   margin-bottom: 20px;
+   font-style: italic;
+   color: #cccccc;
+   font-size: 12px;
+   border: 1px solid #cccccc;
+}
+.input__form:focus {
+   box-shadow: inset 0px 2px 7px 0px rgba(11, 12, 12, 0.37);
+   border: 1px solid #cccccc;
+   outline: none;
+   color: #7d7d7d;
+}
+
+.form__check {
+   float: left;
+   cursor: pointer;
+}
+.check__lable {
+   margin-left: 5px;
+   font-size: 12px;
+   font-weight: 500;
+   font-style: italic;
+   color: #7d7d7d;
+   cursor: pointer;
+}
+.check__link {
+   float: right;
+   font-size: 12px;
+   font-weight: 500;
+   font-style: italic;
+   color: #7d7d7d;
+   text-decoration: none;
+}
+.form__button {
+   display: block;
+   margin: 15px auto 20px;
+}
+.form__social {
+   margin-bottom: 20px;
+}
+.social__list {
+   text-align: center;
+}
+.social__item {
+   display: inline-block;
+   margin: 0 10px;
+}
+.social__link {
+   text-decoration: none;
+   font-size: 22px;
+   color: #555555;
+}
+.form__shell {
+   text-align: center;
+}
+.form__link {
+   display: block;
+   color: #7d7d7d;
+   font-style: italic;
+   text-decoration: none;
+}
+.form__problem {
+   color: #7d7d7d;
+   font-style: italic;
+   text-decoration: none;
+   font-size: 14px;
+}
+.form__link-problem {
+   color: #758de9;
+   text-decoration: 1px underline #758de9;
+   font-size: 12px;
+}

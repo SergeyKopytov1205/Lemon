@@ -1,0 +1,73 @@
+.recipe {
+   margin-bottom: 140px;
+}
+.recipe__view {
+   width: 46.4%;
+   float: left;
+}
+.recipe__manual {
+   width: 53.6%;
+   float: left;
+}
+.view__content {
+   position: relative;
+}
+.view__pic {
+   height: 100%;
+   width: 100%;
+}
+.view__download {
+   position: absolute;
+   top: 0;
+   right: 20px;
+}
+.view__button {
+   width: 50px;
+   height: 65px;
+   background-color: #000;
+   opacity: 0.5;
+   border: 0;
+   cursor: pointer;
+}
+.view__icon {
+   padding-left: 8px;
+}
+.manual__content {
+   margin: 30px 50px 35px 35px;
+}
+.manual__title {
+   color: #055555;
+   font-family: "Playfair Display", sans-serif;
+   font-weight: 900;
+   font-size: 32px;
+   letter-spacing: initial;
+   margin-bottom: 10px;
+}
+.manual__info {
+   font-size: 16px;
+   color: #555555;
+   margin-bottom: 25px;
+}
+.manual__value {
+   float: left;
+}
+.manual__button {
+   float: right;
+}
+.manual__instr {
+   height: 260px;
+   overflow: auto;
+}
+.manual__engr {
+   margin-bottom: 25px;
+   font-weight: 300;
+}
+.manual__direction {
+   margin-bottom: 20px;
+   font-weight: 700;
+   font-size: 18px;
+}
+.manual__desc {
+   font-size: 16px;
+   font-weight: 300;
+}

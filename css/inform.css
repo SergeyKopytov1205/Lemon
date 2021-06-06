@@ -1,241 +1,3 @@
-.main-dish {
-   margin-bottom: 85px;
-   background: url(../icon/Photo1.jpg) center center no-repeat;
-   background-size: cover;
-}
-.main-dish__present {
-   padding: 50px 0 35px 8.4%;
-}
-.main-dish__logo {
-   width: 250px;
-   height: 105px;
-}
-.main-dish__title {
-   margin-top: 35px;
-   font-family: "Playfair Display", sans-serif;
-   color: #921026;
-   font-size: 24px;
-   font-weight: 500;
-}
-.main-dish__desc {
-   margin-top: 25px;
-   width: 33%;
-   font-weight: 300;
-}
-.main-dish__button {
-   margin: 25px 0 55px 0;
-}
-
-.choise-dish {
-   margin-bottom: 85px;
-}
-
-.choise-dish__cart {
-   width: 33.333%;
-   float: left;
-}
-.choise-dish__content {
-   margin: 0 5%;
-}
-.choise-dish__image {
-   margin: 40px 0 15px;
-}
-.choise-dish__pic {
-   height: 100%;
-   width: 100%;
-}
-.choise-dish__title {
-   font-size: 18px;
-   font-weight: 300;
-   margin-bottom: 5px;
-}
-.choise-dish__desc {
-   margin-bottom: 50px;
-   font-size: 12px;
-   font-weight: 300;
-   color: #555555;
-}
-.choise-dish__time {
-   font-size: 12px;
-   padding-right: 10px;
-   border-right: 1px solid #555555;
-}
-.choise-dish__view {
-   font-size: 12px;
-}
-
-.recipe {
-   margin-bottom: 140px;
-}
-.recipe__view {
-   width: 46.4%;
-   float: left;
-}
-.recipe__manual {
-   width: 53.6%;
-   float: left;
-}
-.view__content {
-   position: relative;
-}
-.view__pic {
-   height: 100%;
-   width: 100%;
-}
-.view__download {
-   position: absolute;
-   top: 0;
-   right: 20px;
-}
-.view__button {
-   width: 50px;
-   height: 65px;
-   background-color: #000;
-   opacity: 0.5;
-   border: 0;
-   cursor: pointer;
-}
-.view__icon {
-   padding-left: 8px;
-}
-.manual__content {
-   margin: 30px 50px 35px 35px;
-}
-.manual__title {
-   color: #055555;
-   font-family: "Playfair Display", sans-serif;
-   font-weight: 900;
-   font-size: 32px;
-   letter-spacing: initial;
-   margin-bottom: 10px;
-}
-.manual__info {
-   font-size: 16px;
-   color: #555555;
-   margin-bottom: 25px;
-}
-.manual__value {
-   float: left;
-}
-.manual__button {
-   float: right;
-}
-.manual__instr {
-   height: 260px;
-   overflow: auto;
-}
-.manual__engr {
-   margin-bottom: 25px;
-   font-weight: 300;
-}
-.manual__direction {
-   margin-bottom: 20px;
-   font-weight: 700;
-   font-size: 18px;
-}
-.manual__desc {
-   font-size: 16px;
-   font-weight: 300;
-}
-
-.post {
-   margin-bottom: 75px;
-}
-.post__wrap {
-   overflow: hidden;
-   margin: 0 -3.43%;
-}
-.post__cart {
-   width: 50%;
-   float: left;
-}
-.post__content {
-   margin: 0 3.43%;
-   padding: 0 30px;
-   position: relative;
-}
-.post__title {
-   font-size: 20px;
-   font-weight: 500;
-   font-style: italic;
-   padding: 20px 5px 5px 5px;
-   border-bottom: 2px solid #dddddd;
-}
-.post__image {
-   float: left;
-   width: 29.5%;
-   margin-top: 25px;
-}
-.post__image-pic {
-   display: inline-block;
-   width: 100%;
-   height: 100%;
-   overflow: hidden;
-   border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-}
-.post__about {
-   float: left;
-   width: 70.5%;
-   padding: 35px 45px 35px 20px;
-}
-.post__author {
-   padding-bottom: 52px;
-   border-bottom: 2px solid #dddddd;
-}
-.author__name {
-   font-size: 24px;
-   font-weight: 700;
-}
-.autor__country {
-   font-weight: 300;
-}
-.post__review {
-   padding-top: 20px;
-}
-.review__title {
-   font-size: 20px;
-   font-style: italic;
-   margin-bottom: 30px;
-}
-.review__desc {
-   font-size: 14px;
-   margin-bottom: 5px;
-}
-.review__signature {
-   float: right;
-}
-.post__contant-error {
-   background: url(../icon/404.jpg) center center no-repeat;
-   height: 520px;
-}
-.error__content {
-   position: absolute;
-   width: 50%;
-   max-width: 178px;
-   padding-top: 160px;
-   left: 50%;
-   transform: translateX(-50%);
-   -webkit-transform: translateX(-50%);
-   -moz-transform: translateX(-50%);
-   -ms-transform: translateX(-50%);
-   -o-transform: translateX(-50%);
-   text-align: center;
-}
-.error__title {
-   font-weight: 700;
-   font-size: 34px;
-}
-.error__description {
-   font-family: "Playfair Display", sans-serif;
-   font-weight: 900;
-   color: #a9a9a9;
-   margin-bottom: 150px;
-}
-
 .inform {
    margin-bottom: 100px;
 }
@@ -474,6 +236,7 @@
 }
 .popular__bg {
    background: url(../icon/Photo7.jpg) center bottom no-repeat;
+   background-size: cover;
    width: 100%;
    height: 100%;
 }
@@ -493,7 +256,6 @@
    font-size: 14px;
    font-weight: 300;
    display: block;
-   
 }
 .timeline__min-fast::before {
    content: "";
@@ -523,4 +285,8 @@
    color: #555555;
    font-weight: 300;
    padding-bottom: 55px;
+}
+.datepicker-here {
+   margin-top: 20px;
+   padding-bottom: 30px;
 }

@@ -1,0 +1,37 @@
+.choise-dish {
+   margin-bottom: 85px;
+}
+
+.choise-dish__cart {
+   width: 33.333%;
+   float: left;
+}
+.choise-dish__content {
+   margin: 0 5%;
+}
+.choise-dish__image {
+   margin: 40px 0 15px;
+}
+.choise-dish__pic {
+   height: 100%;
+   width: 100%;
+}
+.choise-dish__title {
+   font-size: 18px;
+   font-weight: 300;
+   margin-bottom: 5px;
+}
+.choise-dish__desc {
+   margin-bottom: 50px;
+   font-size: 12px;
+   font-weight: 300;
+   color: #555555;
+}
+.choise-dish__time {
+   font-size: 12px;
+   padding-right: 10px;
+   border-right: 1px solid #555555;
+}
+.choise-dish__view {
+   font-size: 12px;
+}

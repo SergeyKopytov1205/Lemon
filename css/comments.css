@@ -1,0 +1,134 @@
+.comments {
+   margin-bottom: 100px;
+}
+.comments__wrap {
+   width: 75%;
+   margin: 0 auto;
+}
+.comments__section {
+   margin-bottom: 40px;
+}
+.comments__contain {
+   padding: 0 5%;
+}
+.comments__title {
+   font-size: 24px;
+   font-style: italic;
+   padding: 20px 0;
+   float: left;
+   font-weight: 500;
+}
+.comments__sait {
+   float: right;
+   padding-top: 35px;
+   font-style: italic;
+}
+.comments__inputwrap {
+   padding-bottom: 50px;
+}
+.comments__image {
+   float: left;
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   overflow: hidden;
+}
+.comments__pic {
+   width: 100%;
+   vertical-align: top;
+}
+.comments__form {
+   float: left;
+   width: 90%;
+   margin: 0;
+   padding: 15px 0 0 65px;
+}
+.comments__input {
+   display: inline-block;
+   max-width: 80%;
+   margin: 0;
+}
+.comments__button {
+   display: inline-block;
+   margin: 0;
+}
+.title-two {
+   float: none;
+}
+.comments__shell {
+   padding-top: 20px;
+   border-top: 2px solid #999;
+}
+.comments__containwrap {
+   width: 90%;
+   float: left;
+   padding-left: 20px;
+}
+.comments__by {
+   font-size: 14px;
+   font-weight: 300;
+}
+.comments__to {
+   padding-bottom: 5px;
+}
+.to__left {
+   float: left;
+   font-weight: bold;
+}
+.span__to {
+   font-size: 14px;
+   color: #629494;
+}
+.to__right {
+   float: right;
+}
+.comments__data {
+   color: #629494;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.comments__dish {
+   max-width: 50%;
+   margin-bottom: 20px;
+}
+.comments__dish-pic {
+   width: 100%;
+}
+.comments__desc {
+   font-weight: 600;
+   margin-bottom: 30px;
+   font-style: italic;
+}
+.comments__page {
+   width: 40%;
+   height: 95px;
+   line-height: 95px;
+   margin: 0 auto;
+}
+.page__list {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+.page__list::before {
+   content: "<";
+   display: block;
+   cursor: pointer;
+} 
+.page__list::after {
+   content: ">";
+   display: block;
+   cursor: pointer;
+}
+.page__link {
+   text-decoration: none;
+   color: #555;
+}
+.page__link-active {
+   text-decoration: 1px underline #999;
+   color: #999;
+}
